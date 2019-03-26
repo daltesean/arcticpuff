@@ -62,11 +62,11 @@ let menuTemplate = [
 
 if (process.platform === 'darwin') {
     menuTemplate.unshift({
-        label: 'Arcticfox Monitor',
+        label: 'ArcticPuff',
         submenu: [
             {
                 role: 'about',
-                label: 'About Arcticfox Monitor'
+                label: 'About ArcticPuff'
             },
             {
                 type: 'separator'
@@ -80,7 +80,7 @@ if (process.platform === 'darwin') {
             },
             {
                 role: 'hide',
-                label: 'Hide Arcticfox Monitor'
+                label: 'Hide ArcticPuff'
             },
             {
                 role: 'hideothers'
@@ -93,7 +93,7 @@ if (process.platform === 'darwin') {
             },
             {
                 role: 'quit',
-                label: 'Quit Arcticfox Monitor'
+                label: 'Quit ArcticPuff'
             }
         ]
     });
