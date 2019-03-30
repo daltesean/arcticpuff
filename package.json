@@ -35,10 +35,11 @@
     "electron-window-state": "^4.1.1",
     "highcharts": "^5.0.14",
     "jquery": "^3.2.1",
+    "node-hid": "^0.7.7",
     "photonkit": "^0.1.2"
   },
   "scripts": {
-    "rebuild": "electron-rebuild -f",
+    "rebuild": "./node_modules/.bin/electron-rebuild -f",
     "start": "electron .",
     "dist": "build"
   },

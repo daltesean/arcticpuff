@@ -39,8 +39,17 @@ let menuTemplate = [
                 label: 'Export csv',
                 enabled: false,
                 click() { exportCsv(); }
-            }
-        ]
+            },
+            {
+                              type: 'separator'
+                          },
+                    {
+                        label: 'Fire ',
+                        accelerator: 'Space',
+                        click: () => {
+                        fox.makePuff(6) }
+                        }
+                ]
     },
     {
         label: 'Settings',
