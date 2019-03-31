@@ -28,6 +28,7 @@
     "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
+    "ajv-keywords": "^3.4.0",
     "arcticfox": "^11.0.2",
     "async": "^2.5.0",
     "electron-is-dev": "^0.3.0",
