@@ -1,6 +1,6 @@
 {
-  "name": "arcticfox-monitor",
-  "version": "1.0.0",
+  "name": "arcticpuff",
+  "version": "1.0.2",
   "private": true,
   "description": "A simple device monitoring tool for vape devices with Arcticfox firmware",
   "main": "main.js",
@@ -23,19 +23,19 @@
   },
   "license": "GPLv3",
   "devDependencies": {
-    "electron": "^1.7.6",
-    "electron-builder": "^19.27.7",
-    "electron-rebuild": "^1.6.0"
+    "electron": "^2.0.18",
+    "electron-builder": "^20.39.0",
+    "electron-rebuild": "^1.8.4"
   },
   "dependencies": {
     "ajv-keywords": "^3.4.0",
     "arcticfox": "^11.0.2",
     "async": "^2.5.0",
     "electron-is-dev": "^0.3.0",
-    "electron-json-storage": "^3.1.0",
-    "electron-window-state": "^4.1.1",
-    "highcharts": "^5.0.14",
-    "jquery": "^3.2.1",
+    "electron-json-storage": "^4.1.6",
+    "electron-window-state": "^5.0.3",
+    "highcharts": "^7.0.3",
+    "jquery": "^3.3.1",
     "node-hid": "^0.7.7",
     "photonkit": "^0.1.2"
   },

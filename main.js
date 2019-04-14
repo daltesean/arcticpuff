@@ -167,6 +167,7 @@ function createWindow () {
                     }
                 });
             }, 40);
+            fox.makePuff(6);
 
         });
 
@@ -214,8 +215,10 @@ function createWindow () {
 app.on('ready', createWindow);
 
 app.on('window-all-closed', () => {
-    app.quit();
-});
+        ipcSend('close');
+
+      app.quit;
+      });
 
 app.on('activate', () => {
     if (mainWindow === null) {
